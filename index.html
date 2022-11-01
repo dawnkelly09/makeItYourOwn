@@ -2,17 +2,48 @@
 <html lang="en">
 	<head>
     	<meta charset="utf-8">
-    	<meta name="description" content="This is where your description goes">
-    	<meta name="keywords" content="one, two, three">
+    	<meta name="description" content="Ask the Magic 8 Ball!">
+    	<meta name="keywords" content="question, magic 8 ball">
 
-		<title>Title in the tab</title>
+		<title>Magic 8 Ball</title>
 
 		<!-- external CSS link -->
 		<link rel="stylesheet" href="css/normalize.css">
 		<link rel="stylesheet" href="css/style.css">
 	</head>
 	<body>
+
+		<section class="hero-section">
+
+		<h1>Ask the Magic 8 Ball</h1>
+		<p>Does the Magic 8 Ball know your future? Ask your question and find out!</p>
 		
+		</section>
+
+		<form class="user-input-form">
+			<!--Name Input-->
+
+			<label>
+				What should we call you? <input type="text"> 
+			</label>
+
+			<!--Question Input-->
+
+			<label>
+				Ask your yes/no question here: <input type="text"> 
+			</label>
+
+			<!--Submit Button-->
+
+			<button name="submit" id="button-click">
+				Ask the Magic 8 Ball
+			</button>
+
+		</form>
+
+
+		<!--Place to display answer-->
+		<h2 id="magic-answer"></h2>
 
 		<script type="text/javascript" src="js/main.js"></script>
 	</body>
